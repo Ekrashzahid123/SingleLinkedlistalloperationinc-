@@ -11,7 +11,7 @@ public:
 };
 
 void create(Node **head, int size)
-{
+{    *head=new Node();
     Node *temp = *head;
     cout << "Enter the value at the head:" << endl;
     cin >> temp->data;
